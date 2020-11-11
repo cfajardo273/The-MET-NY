@@ -1,0 +1,13 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:cfajardo273/The-MET-NY.git",
+  "author": "Carmen Fajardo <cfajardo440@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lerna": "^3.22.1",
+    "nodemon": "^2.0.6"
+  }
+}

@@ -1,17 +1,36 @@
-* {
-  box-sizing: border-box;
+main {
+  padding: 1.25rem;
 }
 
-body {
-  font-size: 100%;
+.paintings {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-picture {
-  display: block;
+.paintings article {
+  max-width: calc(33% - 1.25rem);
+  display: flex;
+  border: 2px solid;
+  margin-bottom: 1.25rem;
 }
 
-img {
-  display: block;
-  height: auto;
-  max-width: 100%;
+.paintings article section {
+  max-width: 50%;
+  padding: 0.75rem;
+}
+
+.paintings article section:last-of-type div {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.paintings article section dt {
+  min-width: 40%;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.paintings article section dd {
+  margin: 0;
 }

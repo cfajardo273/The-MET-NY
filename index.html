@@ -1,24 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carmen MET</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Carmen MET</title>
-  <link rel="stylesheet" href="./styles/index.css" />
-</head>
-
-<body>
-  <main> logo
-  </main>
-  <h1>MET search</h1>
-  <form action="">
-    <label for="search">Busca pinturas por pais</label>
-    <input type="search" name="search" id="search" placeholder="País en inglés" />
-    <button type="submit">Buscar</button>
-  </form>
-  </main>
-  <script type="module" src="./scripts/index.js"></script>
-</body>
-
+  <body>
+    <main>
+      <header>
+        <picture>
+          <img src="" alt="Logo" />
+        </picture>
+      </header>
+      <h1>MET search</h1>
+      <form action="">
+        <label for="search">Busca pinturas por pais</label>
+        <input
+          type="search"
+          name="search"
+          id="search"
+          placeholder="País en inglés"
+        />
+        <button type="submit">Buscar</button>
+      </form>
+      <section id="paintings" class="paintings"></section>
+      <template id="painting">
+        <article>
+          <section>
+            <picture><img src="" alt="" /></picture>
+          </section>
+          <section>
+            <dl>
+              <div>
+                <dt>Title</dt>
+                <dd id="title"></dd>
+              </div>
+              <div>
+                <dt>Artist</dt>
+                <dd id="artist"></dd>
+              </div>
+              <div>
+                <dt>Date</dt>
+                <dd id="date"></dd>
+              </div>
+              <div>
+                <dt>Medium</dt>
+                <dd id="medium"></dd>
+              </div>
+              <div>
+                <dt>Dimensions</dt>
+                <dd id="dimensions"></dd>
+              </div>
+            </dl>
+          </section>
+        </article>
+      </template>
+    </main>
+    <script type="module" src="./scripts/index.js"></script>
+  </body>
 </html>

@@ -3,6 +3,9 @@ export const renderOnScreeen = (paintings) => {
     console.log({ painting });
   });
 
+  const printOnScreen = (paintings) => console.log(paintings);
+
+
   // TODO:
 
   // Imprimir en pantalla (HTML) las pinturas

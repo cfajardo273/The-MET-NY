@@ -1,7 +1,7 @@
 const template = document.querySelector('#painting');
-const paintingsSection = document.querySelector('#paintings');
 
 export const renderOnScreeen = (paintings) => {
+  const paintingsSection = document.querySelector('#paintings');
   paintings.forEach((painting) => {
     const {
       title,

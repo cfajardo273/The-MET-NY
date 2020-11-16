@@ -1,7 +1,19 @@
 main {
   padding: 1.25rem;
 }
+ 
+header {
+  display: flex;
+  flex-direction: row;
+}
 
+h1 {
+  color: red;
+  border: 1px red solid;
+  text-align: center;
+}
+
+}
 .paintings {
   display: flex;
   justify-content: space-between;

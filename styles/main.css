@@ -1,0 +1,42 @@
+main {
+  padding: 1.25rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.paintings {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.paintings article {
+  max-width: calc(50% - 1.25rem);
+  border: 2px solid;
+  margin-bottom: 1.25rem;
+}
+
+.paintings article section {
+  padding: 0.75rem;
+}
+
+.paintings article section:last-of-type div {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.paintings article section dt {
+  min-width: 40%;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.paintings article section dd {
+  margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .paintings article {
+    max-width: 100%;
+  }
+}

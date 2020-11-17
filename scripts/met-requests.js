@@ -22,3 +22,4 @@ export const getPaintingsByRegion = async (region) => {
 
   return paintings;
 };
+

@@ -1,5 +1,7 @@
 main {
   padding: 1.25rem;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .paintings {
@@ -9,14 +11,12 @@ main {
 }
 
 .paintings article {
-  max-width: calc(33% - 1.25rem);
-  display: flex;
+  max-width: calc(50% - 1.25rem);
   border: 2px solid;
   margin-bottom: 1.25rem;
 }
 
 .paintings article section {
-  max-width: 50%;
   padding: 0.75rem;
 }
 

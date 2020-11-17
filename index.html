@@ -8,26 +8,26 @@
   </head>
 
   <body>
+    <header>
+      <picture>
+        <img
+          src="https://www.bildersuche.org/images/logos/the-met-mueum.png"
+          alt="Logo"
+        />
+      </picture>
+      <h1>MET search</h1>
+      <form action="">
+        <label for="search">Busca pinturas por pais</label>
+        <input
+          type="search"
+          name="search"
+          id="search"
+          placeholder="País en inglés"
+        />
+        <button type="submit">Buscar</button>
+      </form>
+    </header>
     <main>
-      <header>
-        <picture>
-          <img
-            src="https://www.bildersuche.org/images/logos/the-met-mueum.png"
-            alt="Logo"
-          />
-        </picture>
-        <h1>MET search</h1>
-        <form action="">
-          <label for="search">Busca pinturas por pais</label>
-          <input
-            type="search"
-            name="search"
-            id="search"
-            placeholder="País en inglés"
-          />
-          <button type="submit">Buscar</button>
-        </form>
-      </header>
       <section id="paintings" class="paintings"></section>
       <template id="painting">
         <article>
@@ -61,6 +61,7 @@
         </article>
       </template>
     </main>
+
     <script type="module" src="./scripts/index.js"></script>
   </body>
 </html>
